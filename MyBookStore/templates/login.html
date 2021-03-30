@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+    {# hidden_tag与CSRF有关. #}
+    {{ form.hidden_tag() }}
+    {{ form.email.label }} {{ form.email() }}
+    {{ form.password.label }} {{ form.password() }}
+    {{ form.submit() }}
+</form>
+{% endblock %}
