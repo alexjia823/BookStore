@@ -1,0 +1,66 @@
+"""
+constants.py
+"""
+HTTP_SUCCESS = 200
+HTTP_BADREQ = 400
+HTTP_FORBIDDEN = 403
+HTTP_NOTFOUND = 404
+HTTP_INTERROR = 500
+HTTP_METHOD_GET = 'GET'
+HTTP_METHOD_POST = 'POST'
+HTTP_METHOD_PUT = 'PUT'
+HTTP_METHOD_DELETE = 'DELETE'
+HTTP_METHOD_PATCH = 'PATCH'
+
+HOME_STARTPAGE = 1
+HOME_NUM_PERPAGE = 10
+USER_STARTPAGE = 1
+USER_NUM_PERPAGE = 5
+
+REQUEST_ARGS_TYPE = 'page'
+
+BLOG_POST_CREATE = 'Blog Post Created'
+BLOG_POST_UPDATED = 'Post Updated'
+BLOG_POST_UPDATE_TITLE = 'Update'
+BLOG_POST_DELETED = 'Post has been deleted'
+
+FILENAME_CREATE_POST = 'create_post.html'
+FILENAME_BLOG_POST = 'blog_post.html'
+FILENAME_HOMEPAGE = 'index.html'
+FILENAME_ABOUTUS = 'info.html'
+FILENAME_REGISTER = 'register.html'
+FILENAME_LOGIN = 'login.html'
+FILENAME_USER_BLOG_POST = 'user_blog_posts.html'
+FILENAME_404 = 'error_pages/404.html'
+FILENAME_403 = 'error_pages/403.html'
+FILENAME_ACCOUNT = 'account.html'
+
+FORM_FIELD_EMAIL = 'Email'
+FORM_FIELD_PASS = 'Password'
+FORM_FIELD_TITLE = 'Title'
+FORM_FIELD_TEXTAREA = 'Text'
+FORM_FIELD_LOGIN = 'Log In'
+FORM_FIELD_BLOGPOST = 'BlogPost'
+FORM_FILED_PASS_CONFIRM = 'pass_confirm'
+FORM_FIELD_USERNAME = 'Username'
+FORM_FIELD_UPDATE = 'Update'
+FORM_FIELD_CONFIRM_PASS = 'Confirm password'
+FORM_FIELD_REGISTER = 'Register!'
+FORM_FIELD_UPDATE_PROFILE_PIC = 'Update Profile Picture'
+FORM_DUP_EMAIL = 'Your email has been registered already!'
+FORM_DUP_USERNAME = 'Sorry, that username is taken!'
+FORM_REGISTER_SUCCESS = 'Thanks for registering! Now you can login!'
+FORM_LOGIN_SUCCESS = 'Logged in successfully.'
+FORM_PASS_MATCH = 'Passwords Must Match!'
+FORM_PROFILE_UPDATE_SUCCESS = 'User Account Updated'
+
+FORM_PIC_WIDTH = 200
+FORM_PIC_DEPTH = 200
+
+DB_EMAIL_LENGTH = 64
+DB_PROFILE_IMAGE_LENGTH = 20
+DB_PROFILE_USERNAME = 64
+DB_PASSWORD_HASH = 128
+DB_TITLE_LENGTH = 140
+
+
